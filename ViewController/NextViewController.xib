@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NextViewController" customModule="ViewController" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="Qui-Vo-uiR"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jmH-5z-iWQ">
+                    <rect key="frame" x="109" y="257" width="101" height="54"/>
+                    <color key="backgroundColor" red="0.98562790219999996" green="1" blue="0.77402139989999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="101" id="JOt-Px-264"/>
+                        <constraint firstAttribute="height" constant="54" id="u3r-Vf-iAT"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <connections>
+                        <action selector="pushButton" destination="-1" eventType="touchUpInside" id="84j-dj-Flv"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.76304695359108154" blue="0.72929920494083023" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="jmH-5z-iWQ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="JGI-G2-cAg"/>
+                <constraint firstItem="jmH-5z-iWQ" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="csJ-ju-xKk"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="192.5" y="404.5"/>
+        </view>
+    </objects>
+</document>
